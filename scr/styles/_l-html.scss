@@ -1,0 +1,18 @@
+@media (min-width: 375px) and ( max-width: 1440px){
+    .html{
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.html .body{
+    margin: 0;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 100vh auto auto auto auto;
+    grid-template-columns: repeat(8,1fr);
+    min-height: auto; 
+    max-width: 1440px;
+}
